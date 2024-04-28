@@ -27,7 +27,7 @@
  */
 
 if (!defined('MEDIAWIKI')) {
-  die();
+  throw new RuntimeException('MEDIAWIKI is not defined');
 }
 
 $dir = dirname(__FILE__);
