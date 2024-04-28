@@ -55,7 +55,7 @@ class S5SlideShow
             return false;
         }
 
-        $this->sArticle = $sContent;
+        $this->sArticle = new Article($sTitle);
         $this->sTitle = $sTitle;
 
         if ($sContent === null) {
